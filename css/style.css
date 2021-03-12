@@ -1,0 +1,64 @@
+* { font-family: 'Spoqa Han Sans Neo', 'sans-serif'; }
+.container{
+font-weight: 700;
+font-size: 48pt;
+color: #fff;
+text-align: center;
+}
+.container a{
+  color: inherit;
+}
+/* 그룹 배경 설정하기 */
+/* welcome group */
+.group1{
+  background: url(../img/masaaki-komori-Z8TQv3yKQd4-unsplash.jpg) no-repeat 100% 100% /cover;
+}
+.welcome{
+  font-size: 96pt;
+}
+.group2{
+  background-color: tomato;
+}
+.fp-slidesNav a{
+네
+}
+.오늘의날씨1{
+  font-weight: 400;
+  font-size: 24pt;
+  color: aquamarine;
+  text-align: center;
+}
+/* 학원끝나고 해야할 일이 많다. */
+.group3{
+  background: url(../img/work.jpg) no-repeat 50% 50% / cover;
+}
+.학원끝나고할일{
+  color: whitesmoke;
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.doing{
+  font-size: 48px;
+}
+.group4{
+  background: url(../img/rain.jpg) no-repeat 50% 50% / cover;
+  padding-top: 0% !important;
+}
+.school{
+  font-size: 60px;
+  background: hsla(30, 70%, 50%, 0.4);
+  width: 50%;
+  margin-left: 50%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.tel{
+  font-size: 24pt;
+}
+.location{
+  font-size: 36pt;
+}

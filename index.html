@@ -6,24 +6,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>축복 포트폴리오</title>
   <link rel="stylesheet" href="./css/jquery.fullpage.css">
+  <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-  <div id="fullpage">
-    <div class="section">Some section1</div>
-    <div class="section">
-      <div class="slide" data-anchor="slide1"> Slide 1 </div>
-	    <div class="slide" data-anchor="slide2"> Slide 2 </div>
-	    <div class="slide" data-anchor="slide3"> Slide 3 </div>
-	    <div class="slide" data-anchor="slide4"> Slide 4 </div>
+  <div id="fullpage" class="container">
+    <div class="section group1">
+      <div class="welcome">hello 반갑습니다 :)</div>
     </div>
-    <div class="section">Some section3</div>
-    <div class="section">Some section4</div>
+    <div class="section group2">
+      <div class="slide card1" data-anchor="slide1"><img src="./img/사진1.jpg" alt=""> </div>
+	    <div class="slide card2" data-anchor="slide2"><img src="./img/사진2.jpg" alt=""></div>
+	    <div class="slide card3" data-anchor="slide3"><img src="./img/사진3.jpg" alt=""></div>
+	    <div class="slide card4" data-anchor="slide4"><img src="./img/사진 4.jpg" alt=""></div>
+    </div>
+    <div class="section group3">
+      <ul class="학원끝나고할일">
+        <li class="name">축복쓰</li>
+        <li class="job">학생</li>
+        <li class="doing">UX/UI를 공부하고 있어요</li>
+      </ul>
+    </div>
+    <div class="section group4">
+      <div class="school">
+        <div class="title">UX/UI 디자인 스쿨</div>
+        <div class="location">성수역 2번 출구 제강빌딩 8층</div>
+        <div class="tel"><a href="tel:1023456789">010-2345-6789</a></div>
+      </div>
+    </div>
   </div>
 
-
-
-
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="./js/jquery.min.js"></script>
   <script src="./js/jquery.easings.min.js"></script>
   <script src="./js/jquery.fullpage.min.js"></script>
   <script src="./js/scrolloverflow.min.js"></script>
@@ -34,11 +47,11 @@
 		menu: '#menu',
 		lockAnchors: true,
 		anchors:['firstPage', 'secondPage'],
-		navigation: true,
+		navigation: false,
 		navigationPosition: 'left',
 		navigationTooltips: ['section1', 'section2', 'section3', 'section4'],
 		showActiveTooltip: false,
-		slidesNavigation: true,
+		slidesNavigation: false,
 		slidesNavPosition: 'bottom',
 
 		//Scrolling
@@ -75,9 +88,9 @@
 		recordHistory: true,
 
 		//Design
-		controlArrows: false,
+		controlArrows: true,
 		verticalCentered: true,
-		sectionsColor : ['yellow', 'salmon', 'lightseagreen', 'blueviolet'],
+		// sectionsColor : ['yellow', 'salmon', 'lightseagreen', 'blueviolet'],
 		paddingTop: '3em',
 		paddingBottom: '10px',
 		fixedElements: '#header, .footer',
