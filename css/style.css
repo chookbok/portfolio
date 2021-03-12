@@ -19,15 +19,6 @@ text-align: center;
 .group2{
   background-color: tomato;
 }
-.fp-slidesNav a{
-네
-}
-.오늘의날씨1{
-  font-weight: 400;
-  font-size: 24pt;
-  color: aquamarine;
-  text-align: center;
-}
 /* 학원끝나고 해야할 일이 많다. */
 .group3{
   background: url(../img/work.jpg) no-repeat 50% 50% / cover;
